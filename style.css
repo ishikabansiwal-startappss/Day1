@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    font-style: italic;
     background-color: white;
 }
 
@@ -66,4 +67,25 @@ input[type="submit"] {
     color: white;
     border: none;
     cursor: pointer;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-text {
+    width: 60%;
+}
+.hero-image img {
+    width: 220px;
+    border-radius: 50%;
+}
+.about {
+    margin-top: 40px;
+}
+.about p {
+    margin-top: 20px;
+    line-height: 1.8;
+    font-size: 16px;
+    max-width: 900px;
 }
