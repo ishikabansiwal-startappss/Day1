@@ -2,145 +2,50 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Day1 task</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-
-        /* Navigation Bar */
-        nav {
-            background-color: #333;
-            padding: 10px;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin-right: 15px;
-            font-size: 16px;
-        }
-
-        nav a:hover {
-            text-decoration: underline;
-        }
-
-        .container {
-            padding: 20px;
-        }
-
-        h1 {
-            color: #333;
-        }
-
-        p {
-            font-size: 16px;
-            line-height: 1.6;
-        }
-
-        img {
-            width: 300px;
-            margin: 15px 0;
-        }
-
-        /* Table Styling */
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
-        }
-
-        table, th, td {
-            border: 1px solid #333;
-        }
-
-        th, td {
-            padding: 10px;
-            text-align: center;
-        }
-
-        th {
-            background-color: #ddd;
-        }
-
-        /* Form Styling */
-        form {
-            background-color: #fff;
-            padding: 20px;
-            margin-top: 20px;
-            width: 300px;
-        }
-
-        input[type="text"], input[type="email"] {
-            width: 100%;
-            padding: 8px;
-            margin: 8px 0;
-        }
-
-        input[type="submit"] {
-            background-color: #333;
-            color: white;
-            border: none;
-            padding: 10px;
-            cursor: pointer;
-        }
-
-        input[type="submit"]:hover {
-            background-color: #555;
-        }
-    </style>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Navigation Bar -->
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="contact.htmlS">Contact</a>
-    </nav>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+</nav>
 
-    <div class="container" id="home">
-        <h1>Welcome to My Webpage</h1>
-        <p>This is a simple webpage created using HTML and styled with CSS. It includes headings, paragraphs, images, links, tables, and a contact form.</p>
+<div class="container">
+    <h2>Hello, I'm Ishika </h2>
+    <p>A B.Tech Computer Science Student </p>
 
-        <img src="https://via.placeholder.com/300" alt="Sample Image">
+    <img src="Week-1\Day-1\Ishika Bansiwal profile photo.jpg" alt="Profile Photo">
 
-        <p>Visit <a href="https://www.google.com" target="_blank">Google</a> for more information.</p>
+    <h2>My Skills</h2>
+    <table>
+        <tr>
+            <th>Technology</th>
+            <th>Level</th>
+        </tr>
+        <tr>
+            <td>JavaScript</td>
+            <td>Beginner</td>
+        </tr>
+        <tr>
+            <td>React</td>
+            <td>Beginner</td>
+        </tr>
+        <tr>
+            <td>Java</td>
+            <td>Intermediate</td>
+        </tr>
+    </table>
 
-        <!-- Table -->
-        <table>
-            <tr>
-                <th>Name</th>
-                <th>Course</th>
-                <th>Year</th>
-            </tr>
-            <tr>
-                <td>Ishika</td>
-                <td>B.Tech</td>
-                <td>4th</td>
-            </tr>
-            <tr>
-                <td>Student</td>
-                <td>Computer Science</td>
-                <td>Final</td>
-            </tr>
-        </table>
-
-        <!-- Contact Form -->
-        <h2 id="contact">Contact Us</h2>
-        <form>
-            <label>Name:</label><br>
-            <input type="text" name="name" required><br>
-
-            <label>Email:</label><br>
-            <input type="email" name="email" required><br>
-
-            <input type="submit" value="Submit">
-        </form>
-    </div>
+    <p>
+        Visit my 
+        <a href="https://github.com/ishikabansiwal-startappss" target="_blank">
+            GitHub
+        </a>
+    </p>
+</div>
 
 </body>
 </html>
