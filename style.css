@@ -2,11 +2,12 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     font-style: italic;
-    background-color: white;
+    background: linear-gradient(to bottom right, #EEF4FF, #FFFFFF);
 }
 
 nav {
-    background-color: #222;
+    background-color: rgb(9, 9, 88);
+     text-align: center;
     padding: 20px;
 }
 
@@ -25,8 +26,17 @@ nav a:hover {
     padding: 20px;
 }
 
+
 h1, h2 {
-    color: #333;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: rgb(9, 9, 88);
+}
+p{
+    text-align: center;
+    letter-spacing: 1px;
+    color: rgb(9, 9, 88);
 }
 
 img {
@@ -70,7 +80,7 @@ input[type="submit"] {
 }
 .hero {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 .hero-text {
@@ -83,9 +93,149 @@ input[type="submit"] {
 .about {
     margin-top: 40px;
 }
+.about {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    max-width: 900px;
+    margin: 40px auto;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    line-height: 1.8;
+}
+
 .about p {
     margin-top: 20px;
     line-height: 1.8;
     font-size: 16px;
     max-width: 900px;
 }
+.hero {
+    background: #FFFFFF;
+    padding: 60px 40px;
+    border-radius: 12px;
+    margin: 30px auto;
+    max-width: 1100px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+.hero-text h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+.hero-text h2 {
+    font-size: 22px;
+    color: #444;
+    margin-top: -10px;
+}
+.projects {
+    max-width: 1100px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.project-card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 700px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+    text-align: left;
+}
+
+.project-card h2 {
+    color: rgb(9, 9, 88);
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    line-height: 1.6;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.btn {
+    background: rgb(9, 9, 88);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    transition: 0.3s;
+}
+.btn:hover {
+    background: #0d0db8;
+}
+
+
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 60vh;
+    padding: 40px;
+}
+
+.contact-box {
+    width: 400px;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    border: 1px solid #ddd;
+}
+
+.contact-box fieldset {
+    border: 1px solid #bbb;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.contact-box legend {
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(9, 9, 88);
+    font-style: italic;
+}
+
+.contact-box label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+.contact-box input,
+.contact-box textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid rgb(150,150,150);
+    margin: 6px 0 14px;
+    font-size: 15px;
+}
+
+.contact-box textarea {
+    height: 120px;
+    resize: none;
+}
+
+.contact-box button {
+    width: 100%;
+    padding: 10px;
+    background: rgb(9, 9, 88);
+    color: white;
+    border: none;
+    font-size: 17px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-box button:hover {
+    background: rgb(0, 0, 55);
+}
+
+
+
